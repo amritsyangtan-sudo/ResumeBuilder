@@ -1,0 +1,14 @@
+D:\Repo\ResumeBuilder\bin\Debug\net9.0\ResumeBuilder.exe
+D:\Repo\ResumeBuilder\bin\Debug\net9.0\ResumeBuilder.deps.json
+D:\Repo\ResumeBuilder\bin\Debug\net9.0\ResumeBuilder.runtimeconfig.json
+D:\Repo\ResumeBuilder\bin\Debug\net9.0\ResumeBuilder.dll
+D:\Repo\ResumeBuilder\bin\Debug\net9.0\ResumeBuilder.pdb
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\ResumeBuilder.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\ResumeBuilder.AssemblyInfoInputs.cache
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\ResumeBuilder.AssemblyInfo.cs
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\ResumeBuilder.csproj.CoreCompileInputs.cache
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\ResumeBuilder.dll
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\refint\ResumeBuilder.dll
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\ResumeBuilder.pdb
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\ResumeBuilder.genruntimeconfig.cache
+D:\Repo\ResumeBuilder\obj\Debug\net9.0\ref\ResumeBuilder.dll
