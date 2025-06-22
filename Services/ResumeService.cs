@@ -20,7 +20,7 @@ namespace ResumeBuilder.Services
             if (resume == null)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("❌ Resume is null. Cannot export.");
+                Console.WriteLine("Resume is null. Cannot export.");
                 Console.ResetColor();
                 return;
             }

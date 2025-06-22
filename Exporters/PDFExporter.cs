@@ -35,7 +35,7 @@ public void Export(Resume resume, string fileName = null)
 
                     page.Content().Column(col =>
                     {
-                        col.Item().Text($"📄 RESUME").FontSize(20).Bold();
+                        col.Item().PaddingVertical(10).PaddingHorizontal(200).Text($"📄 RESUME").FontSize(15).Bold();
                         col.Item().Text($"Name  : {resume.Name}");
                         col.Item().Text($"Email : {resume.Email}");
                         if (!string.IsNullOrWhiteSpace(resume.Phone))
