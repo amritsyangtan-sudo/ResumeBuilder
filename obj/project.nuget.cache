@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RUo4mgzHNG0=",
+  "dgSpecHash": "1CIF5pyAj9o=",
   "success": true,
   "projectFilePath": "D:\\repo\\resume\\resumebuilder\\ResumeBuilder.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\AmritS\\.nuget\\packages\\questpdf\\2025.5.1\\questpdf.2025.5.1.nupkg.sha512"
+  ],
   "logs": []
 }

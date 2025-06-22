@@ -17,5 +17,5 @@ var resume = new ResumeBuilder.ResumeBuilder()
 
 Console.WriteLine(resume.ToString());
 
-IExporter textExporter = new TxtExporter();
+IExporter textExporter = ExporterFactory.Create("pdf");
 textExporter.Export(resume);
