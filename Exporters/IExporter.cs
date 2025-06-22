@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace ResumeBuilder.Exporters
 {
-    public class IExporter
+    public interface IExporter
     {
-        
+        void Export();
     }
 }

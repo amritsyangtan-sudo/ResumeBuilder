@@ -14,15 +14,46 @@ namespace ResumeBuilder
         public string Phone { get; set; }
         public string Address { get; set; }
         public string Email { get; set; }
-        public string Skill { get; set; }
-        public string Education { get; set; }
-        public string Experience { get; set; }
+        public string Summary { get; set; }
+        public List<string> Skills { get; set; } = new();
+        public List<string> Education { get; set; } = new();
+        public List<string> Experience { get; set; } = new();
+
 
         public override string ToString()
         {
             var sb = new StringBuilder();
+            sb.AppendLine($"Resume");
             sb.AppendLine($"Name: {Name}");
             sb.AppendLine($"Phone: {Phone}");
+            sb.AppendLine($"Address: {Address}");
+            sb.AppendLine($"Email: {Email}");
+            sb.AppendLine($"Summary: {Summary}");
+            if (Skills.Any())
+            {
+                sb.AppendLine($"Skills:");
+                foreach (var skill in Skills)
+                {
+                    sb.AppendLine($"- {skill}");
+                }
+            }
+            if (Education.Any())
+            {
+                sb.AppendLine("Education");
+                foreach (var edu in Education)
+                {
+                    sb.AppendLine($"- {edu}");
+
+                }
+            }
+            if (Experience.Any())
+            {
+                sb.AppendLine("Experience:");
+                foreach (var exp in Experience)
+                {
+                    sb.AppendLine($"Experience: {exp}");
+                }
+            }
             return sb.ToString();
         }
     }
