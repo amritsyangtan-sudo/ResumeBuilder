@@ -39,21 +39,21 @@ namespace ResumeBuilder
             return this;
         }
 
-        public ResumeBuilder SetSkills(List<string> skills)
+        public ResumeBuilder SetSkills(string skills)
         {
-            _resume.Skills = skills;
+            _resume.Skills.Add(skills);
             return this;
         }
 
-        public ResumeBuilder SetEducation(List<string> education)
+        public ResumeBuilder SetEducation(string education)
         {
-            _resume.Education = education;
+            _resume.Education.Add(education);
             return this;
         }
 
-        public ResumeBuilder SetExperience(List<string> experience)
+        public ResumeBuilder SetExperience(string experience)
         {
-            _resume.Experience = experience;
+            _resume.Experience.Add(experience);
             return this;
         }
 

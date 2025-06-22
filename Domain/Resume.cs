@@ -23,7 +23,7 @@ namespace ResumeBuilder
         public override string ToString()
         {
             var sb = new StringBuilder();
-            sb.AppendLine($"Resume");
+            sb.AppendLine($"        Resume");
             sb.AppendLine($"Name: {Name}");
             sb.AppendLine($"Phone: {Phone}");
             sb.AppendLine($"Address: {Address}");
@@ -51,7 +51,7 @@ namespace ResumeBuilder
                 sb.AppendLine("Experience:");
                 foreach (var exp in Experience)
                 {
-                    sb.AppendLine($"Experience: {exp}");
+                    sb.AppendLine($"- {exp}");
                 }
             }
             return sb.ToString();

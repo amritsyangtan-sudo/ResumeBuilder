@@ -7,6 +7,6 @@ namespace ResumeBuilder.Exporters
 {
     public interface IExporter
     {
-        void Export();
+        void Export(Resume resume, string fileName = null);
     }
 }
