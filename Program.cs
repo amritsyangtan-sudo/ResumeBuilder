@@ -1,5 +1,6 @@
 ﻿using ResumeBuilder;
 using ResumeBuilder.Exporters;
+using ResumeBuilder.Services;
 
 var resume = new ResumeBuilder.ResumeBuilder()
 .SetName("Amrit Syangtan")
@@ -17,5 +18,6 @@ var resume = new ResumeBuilder.ResumeBuilder()
 
 Console.WriteLine(resume.ToString());
 
-IExporter textExporter = ExporterFactory.Create("pdf");
-textExporter.Export(resume);
+IExporter exporter = ExporterFactory.Create("pdf");
+var service = new ResumeService(exporter);
+service.Generate(resume);
