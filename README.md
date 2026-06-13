@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📄 ResumeBuilder
+# 📄 GoF Design Patterns — via ResumeBuilder
 
 **A C# console application that demonstrates GOF of design patterns**  
 **through the practical context of building and exporting a resume.**
